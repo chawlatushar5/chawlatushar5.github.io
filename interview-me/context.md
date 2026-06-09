@@ -167,7 +167,20 @@ Collaboration & Growth
 - **Result:** Reduced developer time and input on service recovery by 95%,
   freeing the team to spend that time on feature work instead of firefighting.
 
-### Story 3 — Leading platform security hardening (IDOR / session-context, 2026)
+### Story 3 — Building an AI Anomaly Detection system (proudest work)
+- **Situation:** Diagnosing production anomalies across Boomi's platform services
+  was a slow, manual process — engineers had to comb through logs and manually
+  cross-reference known bugs and documentation to piece together root causes.
+- **Task:** Build something that could automate that triage and put the team's
+  accumulated institutional knowledge to work at incident time.
+- **Action:** Built an AI-powered anomaly detection system that ingests service
+  logs, identifies anomalies, and cross-references existing bug documentation to
+  surface targeted fix suggestions and configuration changes automatically.
+- **Result:** Turned hours of manual log investigation into an automated,
+  knowledge-driven triage workflow — making the team's collective debugging
+  experience available on demand. The project Tushar is most proud of at Boomi.
+
+### Story 4 — Leading platform security hardening (IDOR / session-context, 2026)
 - **Situation:** Several legacy platform resource handlers lacked proper
   authorization context, creating IDOR (Insecure Direct Object Reference) risk —
   a real security exposure flagged as part of a 2026 platform security initiative.
@@ -184,7 +197,6 @@ Collaboration & Growth
 ---
 
 ## Background — Career Goals & Work Style
-**[DRAFT — REPLACE WITH YOUR OWN WORDS before launch]**
 
 Tushar is a backend/platform engineer with 6+ years at Boomi spanning Java
 microservices, AWS cloud infrastructure, security remediation, and SRE/observability
@@ -193,19 +205,25 @@ problems end-to-end (networking, messaging platforms, security hardening),
 building tooling that prevents problems proactively rather than reacting to them,
 and mentoring teammates along the way.
 
-> Replace this paragraph with 3-5 sentences, in your own voice, about: what kind
-> of role/company you're looking for next, what you want to be doing more of,
-> and what you're stepping away from (if anything). This is the part recruiters
-> will weight most heavily — don't let the bot guess at it.
+What drives him is getting to use new technology to automate things and make
+people's work a little easier — finding the thing that costs a team real time or
+headaches and building something that fixes it. He gets genuinely motivated when
+he's learning a new stack and applying it to a real problem. He's looking for a
+role where he can be challenged, stay excited about what he's building, and be
+compensated fairly for the experience and skills he brings.
 
 ---
 
 ## FAQ
 
 **What's your strongest project or piece of work?**
-[FACTUAL ANCHOR: any of the three STAR stories above, or the >60,000-message
-Boomi Bus performance validation, or the 95% service-recovery automation —
-DRAFT a 2-3 sentence answer in your own words and drop it here.]
+The project Tushar is most proud of at work is an AI Anomaly Detection system he
+built that can parse through service logs, detect anomalies, and cross-reference
+existing bug documentation to surface targeted fix suggestions and configuration
+changes — essentially turning the team's accumulated knowledge about known issues
+into an automated triage tool. Outside of work, he also built a full inventory
+management system from scratch for his parents' liquor store: no spec, no team,
+just a real problem and a working solution he's genuinely proud of.
 
 **What tools/technologies do you use day to day?**
 Java (8→17), Spring Boot, AWS (ECS, Transit Gateway, KMS, Secrets Manager,
@@ -214,18 +232,29 @@ CI/CD, and Solace/messaging systems — see the Skills section above for the
 full list.
 
 **What are you looking for in your next role?**
-**[DRAFT — REPLACE]** Not yet written — see "Background" above. Don't launch
-without filling this in; it's one of the first things a recruiter will ask.
+A role that challenges him and keeps him learning — ideally with a modern tech
+stack where he gets to use new technology to automate things and solve real
+problems. He wants to be excited about the work, have meaningful ownership over
+what he's building, and be compensated fairly for his skills and experience.
+The throughline: building things that make someone's day a little easier, one
+step at a time.
 
 **Why are you considering a move from Boomi?**
-**[DRAFT — REPLACE]** Not yet written. Write this in your own words — keep it
-forward-looking and specific (what you're moving *toward*), not a complaint
-about the current role (see "Must Not Do" in todo.md — never badmouth a
-past/current employer).
+Tushar is ready for his next challenge. After 6+ years at Boomi he's grown a
+lot, but he's motivated by learning and by getting genuinely excited about what
+he's building — and he's looking for a role where a new tech stack, a harder
+problem, or a faster-moving environment gives him that next gear. He's also at a
+point in his career where he wants compensation that reflects the experience and
+skills he's built up.
 
 **What's a weakness or area you're working on?**
-**[DRAFT — REPLACE]** Not yet written — write this yourself; it needs to be
-genuinely true and something you're comfortable being asked to expand on live.
+Tushar's real weakness is undercommunication — he can get heads-down on a
+problem and forget to keep peers fully in the loop, which has occasionally led
+to misalignment on the team. Documentation falls in the same bucket: it hasn't
+historically been his strong suit. He's been actively working on both — in the
+past year he's written significantly more documentation than in any prior year,
+and he's more deliberate now about surfacing progress and blockers to teammates
+before they become problems.
 
 **How can someone get in touch with you directly?**
 Email: chawla.tushar5@gmail.com · LinkedIn: linkedin.com/in/chawlatushar5 ·
