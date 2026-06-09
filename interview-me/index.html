@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Ask an AI assistant about Tushar Chawla's work experience, skills, and projects.">
+    <meta name="author" content="Tushar Chawla">
+
+    <title>Interview Me — Tushar Chawla</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- Theme CSS -->
+    <link href="../css/grayscale.min.css" rel="stylesheet">
+
+    <!-- Page-specific CSS -->
+    <link href="interview-me.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="../index.html">
+                    <span class="light">&larr; Back to chawlatushar.me</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Intro -->
+    <header class="intro im-intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h3 class="intro-text">Interview Me</h3>
+                        <p>Ask an AI assistant — grounded in my real resume and project history —
+                           about my work experience, skills, and projects.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Chat Section -->
+    <section id="chat" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+
+                <!-- Suggested questions -->
+                <div id="suggested-questions" class="im-suggested">
+                    <button type="button" class="btn btn-default btn-sm im-suggestion" data-question="What's your strongest project or piece of work?">What's your strongest project?</button>
+                    <button type="button" class="btn btn-default btn-sm im-suggestion" data-question="What tools and technologies do you use day to day?">What tools do you use?</button>
+                    <button type="button" class="btn btn-default btn-sm im-suggestion" data-question="Tell me about a time you prevented a production incident before it happened.">Prevented an incident?</button>
+                    <button type="button" class="btn btn-default btn-sm im-suggestion" data-question="What kind of role are you looking for next?">What are you looking for next?</button>
+                </div>
+
+                <!-- Chat window -->
+                <div id="chat-window" class="im-chat-window" aria-live="polite">
+                    <div class="im-message im-message-bot">
+                        <span class="im-message-author">Assistant</span>
+                        <p>Hi — I'm an AI assistant trained on Tushar's real resume, projects, and
+                           work history. Ask me anything about his experience, or tap a suggestion
+                           above to get started.</p>
+                    </div>
+                </div>
+
+                <!-- Input -->
+                <form id="chat-form" class="im-chat-form">
+                    <div class="input-group">
+                        <input type="text" id="chat-input" class="form-control im-chat-input"
+                               placeholder="Ask a question about Tushar's experience…"
+                               autocomplete="off" maxlength="500" required>
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="submit" id="chat-submit">
+                                <i class="fa fa-paper-plane"></i> Ask
+                            </button>
+                        </span>
+                    </div>
+                </form>
+
+                <!-- Disclaimer -->
+                <p class="im-disclaimer">
+                    <i class="fa fa-info-circle"></i>
+                    This is an AI assistant and can make mistakes or miss context. For anything
+                    that matters, please verify directly —
+                    <a href="../Resume.pdf">download the real résumé</a> or
+                    <a href="mailto:chawla.tushar5@gmail.com">email Tushar</a> at
+                    chawla.tushar5@gmail.com.
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Want to talk to the real Tushar?</h2>
+                <p>This bot is just a starting point — if something here is interesting, let's
+                   actually talk.</p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="mailto:chawla.tushar5@gmail.com" class="btn btn-default btn-lg">
+                            <i class="fa fa-envelope fa-fw"></i> <span class="network-name">Email</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/chawlatushar5" class="btn btn-default btn-lg">
+                            <i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
+                    </li>
+                    <li>
+                        <a href="../Resume.pdf" class="btn btn-default btn-lg">
+                            <i class="fa fa-file-pdf-o fa-fw"></i> <span class="network-name">Résumé (PDF)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="../vendor/jquery/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Page config + logic -->
+    <script src="config.js"></script>
+    <script src="interview-me.js"></script>
+
+</body>
+
+</html>
